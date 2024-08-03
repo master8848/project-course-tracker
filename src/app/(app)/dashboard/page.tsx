@@ -1,5 +1,3 @@
-
-import SignIn from "@/components/auth/SignIn";
 import { getUserAuth } from "@/lib/auth/utils";
 
 export default async function Home() {
@@ -11,7 +9,6 @@ export default async function Home() {
           {JSON.stringify(session, null, 2)}
         </pre>
       ) : null}
-      <SignIn />
     </main>
   );
 }
